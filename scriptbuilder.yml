@@ -1,0 +1,53 @@
+base: roblox
+name: scriptbuilder
+
+globals:
+    require:
+        args:
+            - type: string
+
+    owner:
+        any: true
+    printf:
+        args:
+            - type: ...
+    warnf:
+        args:
+            - type: ...
+    NS:
+        args:
+            - type: string
+              display: source
+            - type: any
+              required: false
+    NewScript:
+        args:
+            - type: string
+              display: source
+            - type: any
+              required: false
+    NLS:
+        args:
+            - type: string
+              display: source
+            - type: any
+              display: parent
+            - type: any
+              required: false
+    NewLocalScript:
+        args:
+            - type: string
+              display: source
+            - type: any
+              display: parent
+            - type: any
+              required: false
+    LoadLibrary:
+        args:
+            - type: string
+    LoadAssets:
+        args:
+            - type: number
+    LoadModel:
+        args:
+            - type: string

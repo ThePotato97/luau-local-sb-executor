@@ -1,0 +1,4 @@
+std = "scriptbuilder"
+
+[lints]
+empty_if = "allow"
